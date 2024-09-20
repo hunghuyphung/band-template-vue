@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, a, button, input {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 0.625rem 0;
+}
+
+h2 {
+    font-size: 1.875rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.input {
+    padding: 8px;
+    display: block;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.bc-black {
+    background-color: #000;
+}
+
+.bc-white {
+    background-color: #fff;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-light-grey {
+    color: #757575;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.font-latos {
+    font-family: "Lato", sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.tracking-4 {
+    letter-spacing: 0.25rem;
+}
+
+.opacity-40 {
+    opacity: 0.4;
+}
+
+.opacity-60 {
+    opacity: 0.6;
+}
+
+.grayscale-min {
+    filter: grayscale(50%);
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.max-w-800 {
+    max-width: 50rem;
+}
+
+.m-15-0 {
+    margin: 15px 0;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.mx-negative-16 {
+    margin: 0 -0.5rem;
+}
+
+.p-0-8 {
+    padding: 0 0.5rem;
+}
+
+.p-0-16 {
+    padding: 0 1rem;
+}
+
+.p-32-0 {
+    padding: 2rem 0;
+}
+
+.p-64-16 {
+    padding: 4rem 1rem;
+}
+
+.hover-grey:hover {
+    background-color: #ccc;
+    color: #000000;
+    cursor: pointer;
+}
+
+.hover-opacity:hover {
+    opacity: 0.6;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+:root {
+    --red: #f44336;
+    --header-height: 2.875rem;
+}
